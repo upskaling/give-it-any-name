@@ -1,0 +1,6 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    {{ render_esi(path('app_ok')) }}
+    {{ render_esi(path('app_miss')) }}
+{% endblock %}
